@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Symposium Registration Form</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Symposium Registration Form</h1>
+
+    <form>
+
+        <table>
+
+            <tr>
+                <td >Name</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Register Number</td>
+                <td><input type="text" name="regno"></td>
+            </tr>
+
+            <tr>
+                <td>Department</td>
+                <td>
+                    <select name="dept">
+                        <option>CSE</option>
+                        <option>ECE</option>
+                        <option>EEE</option>
+                        <option>MECH</option>
+                        <option>CIVIL</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Section</td>
+                <td><input type="text" name="sec"></td>
+            </tr>
+
+            <tr>
+                <td>Year</td>
+                <td>
+                    <select name="year">
+                        <option>I Year</option>
+                        <option>II Year</option>
+                        <option>III Year</option>
+                        <option>IV Year</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <input type="radio" name="gender"> Other
+                </td>
+            </tr>
+
+            <tr>
+                <td>Events Interested</td>
+                <td>
+                    <input type="checkbox"> Paper Presentation<br>
+                    <input type="checkbox"> Project Expo<br>
+                    <input type="checkbox"> Quiz Contest<br>
+                    <input type="checkbox"> Technical Workshop
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><textarea rows="4"></textarea></td>
+            </tr>
+           
+            <tr>
+                <td colspan="2" class="buttons">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                    <a href="resume.html">
+            <button type="button">View Resume</button>
+        </a>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</div>
+
+</body>
+</html>
